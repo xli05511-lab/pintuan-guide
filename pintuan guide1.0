@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>入团说明书 · 黑礁 BLACK LAGOON 拼团</title>
+<style>
+:root{
+  --bg:#faf7f2; --card:#ffffff; --text:#2b2620; --muted:#6b6258;
+  --accent:#8a3b2a; --accent-soft:#f3e3da; --border:#e7ddd0;
+  --warn-bg:#fdf3e0; --warn-border:#e0a94a;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#1c1a17; --card:#262320; --text:#ece6dd; --muted:#a99e8f;
+    --accent:#e0a189; --accent-soft:#3a2a24; --border:#3a352e;
+    --warn-bg:#3a2f18; --warn-border:#c98d3a;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1c1a17; --card:#262320; --text:#ece6dd; --muted:#a99e8f;
+  --accent:#e0a189; --accent-soft:#3a2a24; --border:#3a352e;
+  --warn-bg:#3a2f18; --warn-border:#c98d3a;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+  line-height:1.7;
+}
+.wrap{max-width:760px; margin:0 auto; padding:24px 16px 60px}
+header{text-align:center; margin-bottom:18px}
+header h1{font-size:1.5rem; margin:0 0 4px}
+header p{color:var(--muted); margin:0; font-size:.92rem}
+nav{
+  display:flex; gap:8px; overflow-x:auto; padding:10px 2px 16px;
+  -webkit-overflow-scrolling:touch;
+}
+nav a{
+  flex:0 0 auto; background:var(--accent-soft); color:var(--accent);
+  padding:6px 12px; border-radius:999px; text-decoration:none;
+  font-size:.85rem; white-space:nowrap;
+}
+section.card{
+  background:var(--card); border:1px solid var(--border); border-radius:14px;
+  padding:18px 20px; margin-bottom:14px; overflow-x:auto;
+}
+h2{font-size:1.05rem; margin:0 0 10px; display:flex; align-items:center; gap:6px}
+h2 .n{color:var(--muted); font-weight:400; font-size:.85rem}
+ul{margin:8px 0; padding-left:20px}
+li{margin-bottom:6px}
+strong{color:var(--accent)}
+.log-list{margin:0; padding-left:20px}
+.disclaimer{background:var(--warn-bg); border:1px solid var(--warn-border)}
+.disclaimer h2{color:#a5691f}
+.glossary dt{font-weight:600; color:var(--accent)}
+.glossary-row{display:flex; gap:10px; padding:6px 0; border-bottom:1px dashed var(--border); font-size:.92rem}
+.glossary-row:last-child{border-bottom:none}
+.term{flex:0 0 78px; font-weight:600; color:var(--accent)}
+.def{flex:1; color:var(--text)}
+footer{text-align:center; color:var(--muted); font-size:.8rem; margin-top:20px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>🌊 入团说明书</h1>
+<p>黑礁 BLACK LAGOON 拼团 · 救救冷门IP救救天价岛内～</p>
+</header>
+
+<nav>
+<a href="#log">开团日志</a><a href="#eat">吃什么</a><a href="#rate">汇率</a>
+<a href="#pay">交肾</a><a href="#dn">岛内</a><a href="#intl">国际</a>
+<a href="#domestic">国内</a><a href="#stock">囤货</a><a href="#drop">掉落</a>
+<a href="#flow">吃谷流程</a><a href="#glossary">拼谷术语</a><a href="#disclaimer">免责声明</a>
+</nav>
+
+<section class="card" id="log">
+<h2>📌 置顶：开团日志</h2>
+<ul class="log-list">
+<li>黑礁hub联动通贩：已开，已报给代购</li>
+<li>黑礁25周年原画展：待开</li>
+<li>建设ing。。。</li>
+</ul>
+</section>
+
+<section class="card" id="eat">
+<h2>💡 吃什么</h2>
+<p><strong>欢迎老师们进团</strong><br>小团，主开<strong>黑礁 BLACK LAGOON</strong>，其他冷门IP视情况开，开车频率不高。</p>
+<p>一般只开单领+<strong>抱盒</strong>，基本不开配比，可开盲抽，盲抽随拿不拆。配比开的话成几开几，自愿带捆提配，不支持自带冷。</p>
+<p>团长主吃<strong>黑礁</strong>，黑礁配比默认无前两配莱薇+巴拉莱卡。其他也吃的IP有：钢炼、剑风传奇、星际牛仔，一般不开，后续视情况决定；钢炼配比默认无前两配爱德华，剑风传奇默认无1配格里菲斯。</p>
+<p>场贩通贩都开，视情况而定，<strong>一般来说优先场贩</strong>。有其他想吃的需要代下单/拼车可在群内艾特群主。</p>
+<p><strong>不可撤排，可以转单，请视自身经济情况排谷。</strong></p>
+</section>
+
+<section class="card" id="rate">
+<h2>💰 汇率</h2>
+<p>目前通贩汇率46-47汇浮动，场贩汇率52-54汇浮动。以46汇为例，即商品本体价格×0.046。</p>
+<p>截排收肾前会根据实际汇率做调整，默认接受0.05内汇率浮动，汇率浮动高于0.01开放撤排——通贩排谷默认接受41-51汇间波动，超51汇可撤排，场贩汇率同理。其他情况不接受撤排。</p>
+</section>
+
+<section class="card" id="pay">
+<h2>🧾 交肾</h2>
+<p>交肾：给团长交你排的谷子的钱；肾图即付款订单截图。通贩肾＝本体+岛内均摊+国际邮费+国内邮费；场贩肾＝本体+国际邮费+国内邮费。</p>
+<p>支付方式：</p>
+<ul>
+<li>支付宝</li>
+<li>微信（<strong>0.1%手续费</strong>）</li>
+<li>闲鱼（<strong>0.6%手续费</strong>），需提确，🐟：不许欺负好价咪</li>
+</ul>
+<p><strong>团长下单以收肾为标准，排谷不交肾视为跑单，清谷拉黑。</strong></p>
+</section>
+
+<section class="card" id="dn">
+<h2>🏝️ 岛内</h2>
+<p>通贩每一笔订单产生的日本岛内运输费用，不同网站费用不同。</p>
+<ul>
+<li>计算：按点数均摊，抱盒一盒算一点，盲抽视情况锁盒/散抽下单，无人拼盒的未满一盒均按一点算，官方无整盒纯散池情况下每1抽算一点</li>
+<li>收取：和本体一起立肾，临近截止会群内提醒。<strong>拖岛内1天0.5r，拖超一月掉落处理，清谷拉黑</strong></li>
+<li>岛内大于10R每点时不强制发车，会询问拼车老师意愿</li>
+</ul>
+</section>
+
+<section class="card" id="intl">
+<h2>✈️ 国际</h2>
+<p>从日本运往团长国内地址的国际物流费用。</p>
+<ul>
+<li>构成：直邮，重量收费（<strong>1r-1.2r/10g，每500g一档</strong>）+加固费（20r）</li>
+<li>时效：空运，提交发货申请起算，海关不卡到国内约<strong>3-7天</strong></li>
+<li>税费：走包税线，不会出现扣税情况</li>
+<li>计算：个人物品重量×（国际总费用÷总净重）</li>
+<li>提交：到国内后上传国际支付凭证+称重照片+总平铺，打表后小程序内提交，ddl为到国内后一周。<strong>拖国际1天0.5r，拖超一月掉落处理，清谷拉黑</strong></li>
+</ul>
+</section>
+
+<section class="card" id="domestic">
+<h2>📮 国内</h2>
+<p>团长在国内把谷子寄给你所需要的物流费用。</p>
+<ul>
+<li>国内邮费：可走特惠情况下非偏首重<strong>6r</strong></li>
+<li>包装费用：<strong>20点以内1r</strong>，有旧打包材料时不收打包费</li>
+<li>包装方式：泡泡纸+纸盒，通常原袋/原盒不拆</li>
+<li>收件地址无法寄特惠会通知补差，约需补1r；偏远地区需补邮费差</li>
+</ul>
+</section>
+
+<section class="card" id="stock">
+<h2>📦 囤货</h2>
+<p>买的东西到国内后可在团长处存放/积攒一段时间，一起发给你。</p>
+<ul>
+<li>发货坐标：上海，潮湿天气不可避免，<strong>囤货无法保证货物状态</strong></li>
+<li><strong>小团无囤货期</strong>，开一场次发一场次，到货日期临近的可一起发，其他情况无囤货期</li>
+</ul>
+</section>
+
+<section class="card" id="drop">
+<h2>❗ 掉落</h2>
+<p>针对跑单/拖肾的措施：将你买的谷子卖给别人，以弥补拖欠的岛内/国际费用。</p>
+<ul>
+<li>方式：确定掉落后群内通知，一周内无人接则走闲鱼一元拍，拍卖时间一周，拍多少算多少</li>
+<li>退款：优先扣除本应支付的岛内/国际，剩余金额退款<strong>70%</strong>，<strong>30%</strong>用于降团内国际</li>
+<li>掉落本意是希望大家不要跑单/拖肾，扣除费用全部用于补岛内国际和降国际，望理解</li>
+</ul>
+</section>
+
+<section class="card" id="flow">
+<h2>🧭 吃谷流程</h2>
+<ul>
+<li>排制品</li>
+<li>出表交肾</li>
+<li>下单（提供支付凭证）</li>
+<li>出荷（提供转运仓入库信息）</li>
+<li>到国内称重出国际费用（国际付款截图+称重照片+物品平铺）</li>
+<li>交国际国内费用排发</li>
+</ul>
+</section>
+
+<section class="card glossary" id="glossary">
+<h2>📖 拼谷术语</h2>
+<div class="glossary-row"><div class="term">CN</div><div class="def">个人昵称</div></div>
+<div class="glossary-row"><div class="term">谷子</div><div class="def">goods的谐音，指周边</div></div>
+<div class="glossary-row"><div class="term">肾 / 肾额</div><div class="def">代指钱 / 付款金额</div></div>
+<div class="glossary-row"><div class="term">肾表</div><div class="def">付款金额表</div></div>
+<div class="glossary-row"><div class="term">交肾 / 立肾</div><div class="def">交钱 / 立即交钱</div></div>
+<div class="glossary-row"><div class="term">拖肾</div><div class="def">超过期限还没交钱；本团不设拖肾费，拖肾按跑单处理</div></div>
+<div class="glossary-row"><div class="term">ddl</div><div class="def">截止日期</div></div>
+<div class="glossary-row"><div class="term">点数</div><div class="def">谷子个数，"一点"即一个</div></div>
+<div class="glossary-row"><div class="term">通贩 / 场贩</div><div class="def">邮购线上贩售 / 线下会场贩售</div></div>
+<div class="glossary-row"><div class="term">set / 盘</div><div class="def">一套谷子 / 一大套谷子</div></div>
+<div class="glossary-row"><div class="term">单领</div><div class="def">无需拼盒，单个售卖</div></div>
+<div class="glossary-row"><div class="term">配比 / 成配</div><div class="def">拼盒，拆开售卖 / 能拼成完整一套</div></div>
+<div class="glossary-row"><div class="term">配数 / 保配</div><div class="def">同种谷子数量 / 盲抽内容固定</div></div>
+<div class="glossary-row"><div class="term">排/排谷</div><div class="def">选购想要的周边</div></div>
+<div class="glossary-row"><div class="term">撤排 / 转单</div><div class="def">排了不想要撤回 / 转让给别人</div></div>
+<div class="glossary-row"><div class="term">抱盒</div><div class="def">购买一整盒</div></div>
+<div class="glossary-row"><div class="term">k / 1k1</div><div class="def">捆，买热门带冷门 / 买一捆一</div></div>
+<div class="glossary-row"><div class="term">超1k1砍</div><div class="def">最多买一捆一，如买一捆二则砍</div></div>
+<div class="glossary-row"><div class="term">砍单/砍配</div><div class="def">因没凑成一套而取消</div></div>
+<div class="glossary-row"><div class="term">凹 / 凹妈</div><div class="def">all全部买下 / 全包购买的人</div></div>
+<div class="glossary-row"><div class="term">调价</div><div class="def">热门涨价、冷门降价</div></div>
+<div class="glossary-row"><div class="term">烫门/冷门</div><div class="def">人气高难抢 / 人气较低常有余量</div></div>
+<div class="glossary-row"><div class="term">上捆</div><div class="def">冷门排量少时捆热门确保成配</div></div>
+<div class="glossary-row"><div class="term">排发</div><div class="def">按顺序安排发货</div></div>
+<div class="glossary-row"><div class="term">掉落</div><div class="def">团员的谷子被团长转售给别人</div></div>
+<div class="glossary-row"><div class="term">跑单</div><div class="def">排谷后一直不交肾，比拖肾更严重</div></div>
+<div class="glossary-row"><div class="term">推车</div><div class="def">在社交平台宣传，邀请别人来吃谷</div></div>
+</section>
+
+<section class="card disclaimer" id="disclaimer">
+<h2>⚠️ 免责声明</h2>
+<ul>
+<li>本团为互助性质拼团，团长仅代收代付共同分摊费用（本体+岛内/国际+邮费+包装）</li>
+<li>因日本官方缺货、延期发货、错发漏发等问题，团长仅协助沟通/催单，无法保证100%解决，最终以官方处理结果为准</li>
+<li>国际物流/海关政策等不可抗力导致的延误，团长会第一时间同步信息，但不承担因此产生的额外赔偿责任</li>
+<li>破损理赔以到货称重照片+平铺图为准，理赔结果和金额以物流/官方审核为准，团长仅协助申请，不做兜底垫付承诺</li>
+<li>汇率浮动规则见上文说明，一经确认排单即视为接受该规则</li>
+<li>以上免责条款不免除团长因故意或重大过失造成的损失责任</li>
+</ul>
+</section>
+
+<footer>如有疑问请在群内艾特团长 · 内容以最新群公告为准</footer>
+</div>
+</body>
+</html>
